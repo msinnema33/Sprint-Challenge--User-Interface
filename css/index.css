@@ -5,7 +5,7 @@
 
 html,
 body,
-div,
+/*div,*/
 span,
 applet,
 object,
@@ -299,11 +299,33 @@ footer nav a {
 
 /*-------------------about page------------------------*/
 
+.container-about-page {
+    width: 800px;
+    margin: 0 auto;
+}
 .about-text {
     padding: 1%;
     border-bottom: 1px dashed black;
+    margin-bottom: 2%;
 
 }
+
+.button {
+    display: inline-block;
+    border-bottom: 2px;
+    background-color: white;
+    padding: 1px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+.about-middle {
+    padding-top: 2%
+    padding-bottom: 2%;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
 .about-strategy .about-work .about-places .about-collaboration {
     width: 45%;
     margin-top: 2%;
