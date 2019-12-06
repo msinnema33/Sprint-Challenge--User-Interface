@@ -296,3 +296,21 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/*-------------------about page------------------------*/
+
+.about-text {
+    padding: 1%;
+    border-bottom: 1px dashed black;
+
+}
+.about-strategy .about-work .about-places .about-collaboration {
+    width: 45%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    border-bottom: 1px dashed black;
+}
+
+.about-bottom {
+    padding: 2%;
+}
