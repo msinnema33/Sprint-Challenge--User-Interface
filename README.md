@@ -34,13 +34,33 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+Adding semantic tags to your document, provides additional information about that document, which aids in communication. Specifically, semantic tags make it clear to the browser what the meaning of a page and what its content is. 
+That clarity is also communicated with search engines, ensuring that the right pages are delivered for the right queries. 
+Semantic HTML tags provide information about the contents of those tags that goes beyond just how they look on a page.
+
+
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
+
+Inline elements can be nested inside of block elements, and do not break into a new line.  They cannot accept height and width values.
+
+Block elements break into a new line and accept height and width values.
+
 
 3. What are the 4 areas of the box model?
 
+1.	Innermost = content
+2.	Next = Padding
+3.	Next = Border 
+4.	Outermost is Margin 
+
+
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
+It works on the cross-axis.  The cross-axis is the secondary axis.  (i.e. column if the primary axis is row; and row if the primary axis is column).
+
 5. Explain why git is valuable to a team of developers.
+
+Git is a distribute Version Control System.  It allows single or multiple people to make changes to files.  That file can be reverted (rolled back) to any point in the past.  It greatly assists developers in tracking who did what to each file.  It also assists in branching, forking, feature lifecycle, code maintenance and code recovery.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
